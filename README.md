@@ -11,7 +11,7 @@ The project focuses on transforming the existing school website into a contempor
 | Resource | Link |
 |---|---|
 | Official Website | [Tulas International School](https://tis.edu.in/) |
-| Live Demo | Coming Soon |
+| Live Demo | https://tulas-international-school-redesign.vercel.app/ |
 | GitHub Repository | https://github.com/OMPRAKASHKARRI/Tulas-International-School-Redesign |
 
 
