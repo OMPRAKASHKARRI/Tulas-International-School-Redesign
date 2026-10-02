@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 248 243; --surface: 255 255 255; --fg: 15 27 46; --muted: 88 98 114;
+  --line: 226 221 208; --eyebrow: 133 87 0; --accent: 245 179 0; --ink: 15 42 82;
+  color-scheme: light;
+}
+.dark {
+  --bg: 9 14 26; --surface: 18 27 45; --fg: 238 241 246; --muted: 168 178 194;
+  --line: 40 52 75; --eyebrow: 245 179 0; --accent: 245 179 0; --ink: 16 34 66;
+  color-scheme: dark;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-bg font-sans text-fg antialiased; overflow-x: hidden; }
+  section[id] { scroll-margin-top: 4.5rem; }
+  :focus-visible { @apply outline outline-2 outline-offset-4; outline-color: rgb(var(--eyebrow)); }
+  .on-dark :focus-visible { outline-color: #fff; }
+  h1, h2, h3 { @apply font-display; }
+}
+
+/* Smooth theme crossfade: class is added only for the duration of a toggle. */
+html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
+  transition: background-color .35s ease, color .35s ease, border-color .35s ease, fill .35s ease !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
