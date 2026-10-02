@@ -12,7 +12,18 @@ The project focuses on transforming the existing school website into a contempor
 |---|---|
 | Official Website | [Tulas International School](https://tis.edu.in/) |
 | Live Demo | Coming Soon |
-| GitHub Repository | Add Repository URL |
+| GitHub Repository | https://github.com/OMPRAKASHKARRI/Tulas-International-School-Redesign |
+
+
+## Screesnshots
+<img width="1907" height="902" alt="image" src="https://github.com/user-attachments/assets/c54ceb53-5f16-4744-bc87-c9c22cea45f3" />
+
+<img width="1720" height="828" alt="image" src="https://github.com/user-attachments/assets/2ff84cd7-5f43-4cfa-8ace-b6ae101aec9e" />
+
+<img width="1917" height="846" alt="image" src="https://github.com/user-attachments/assets/525d14f0-d993-4619-bde9-3fc7184f98fe" />
+
+
+
 
 ---
 
